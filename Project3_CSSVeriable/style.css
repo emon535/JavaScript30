@@ -1,0 +1,26 @@
+:root {
+    --base:#ffc600;
+    --spacing: 30px;
+    --blur: 4px;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  body {
+    color: white;
+    background: #193549;
+  }
+  
+  img {
+    width: 80%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+  
+  .controls {
+    padding-bottom: 100px;
+  /*   border: 1px solid red; */
+  }
